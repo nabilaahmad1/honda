@@ -1,0 +1,101 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* common css  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+span{
+    color: #E76F51;
+}
+.button{
+    background-color: #E76F51;
+    color: white;
+}
+
+/* top banner  */
+.top-banner{
+    background-color: #264653;
+    color: white;
+}
+.modal-header h5{
+    color: black;
+}
+.modal-body p{
+    color: black;
+}
+
+/* feature bike */
+.feature-bike{
+    color: black;
+}
+.feature-bike p{
+    color: #E76F51;
+}
+.image-1{
+    filter: grayscale(100%);
+}
+
+/* happy clients  */
+.happy-clients p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:  #6C6C6C;
+}
+.fa-star{
+    color: #E77C40;
+}
+.happy-clients .name{
+    font-weight: 600;
+    color: #23A6F0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.happy-clients .position{
+    color: #252B42;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+/* frequently ask question  */
+.acro-item{
+    border: 1px solid #D5E5FB;
+}
+.acro-btn:focus{
+    z-index: 3;
+    border-color: white;
+    box-shadow: 0 0 0 0 white;
+}
+.acro-btn:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 0 0 white;
+}
+.accordion-body p{
+    color: #7E848C;
+}
+
+/* news */
+.news a{
+    color: black;
+}
+
+/* footer  */
+footer p{
+    color: white;
+}
